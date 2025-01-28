@@ -1,6 +1,10 @@
+import Navbar from "./Navbar";
+
 const Home = () => {
     return(
-        <div className="home"></div>
+        <div className="home">
+            <Navbar/>
+        </div>
     );
 };
 

@@ -5,7 +5,6 @@ function App() {
 
   return (
     <>
-      <h1>Hotel Booking App</h1>
       <Home />
     </>
   )
