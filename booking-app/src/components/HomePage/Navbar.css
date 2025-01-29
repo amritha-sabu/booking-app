@@ -1,13 +1,19 @@
 .navbar{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     border-bottom: 2px solid black;
-    min-width: 100%;
+    max-width: 100%;
     height: 15vh;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .logo{
     height: 50px;
     width: auto;
-    margin: auto;
+}
+
+.find-stay{
+    font-size: 18px;
 }
