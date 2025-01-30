@@ -2,11 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid rgba(66, 63, 63, 0.728);
-    max-width: 100%;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    width: 100%;
     height: 15vh;
     padding-left: 15px;
     padding-right: 15px;
+    z-index: 1;
 }
 
 .logo{
@@ -23,6 +24,6 @@
 .find-stay{
     font-size: 25px;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
