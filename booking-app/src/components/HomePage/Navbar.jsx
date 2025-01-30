@@ -6,8 +6,10 @@ const Navbar = () => {
     return (
         <div className="navbar">
             <img className='logo' src={image} alt='logo'/>
-            <button className='find-stay'>Find a Stay</button>
-            <SignUp/>
+            <div className="links">
+                <a href='#' className='find-stay'>Find a Stay</a>
+                <SignUp/>
+            </div>
         </div>
     );
 };

@@ -1,8 +1,10 @@
+import './SignUp.css';
+
 const SignUp = () => {
     return (
         <div className="container">
-            <button>Login</button>
-            <button>SignUp</button>
+            <a href="#">Login</a>
+            <a href="#">SignUp</a>
         </div>
     );
 };
