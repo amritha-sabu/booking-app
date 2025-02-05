@@ -7,6 +7,7 @@ const Hero = () => {
         <div className="hero">
             <div className="hero_container">
                 <Navbar />
+                <div className="hero_content"></div>
             </div>
         </div>
     );
