@@ -6,7 +6,7 @@
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
-    justify-content: center;
+    justify-content:flex-start;
     text-align: center;
     color: white;
   }
