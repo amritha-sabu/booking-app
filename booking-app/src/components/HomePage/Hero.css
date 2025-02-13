@@ -17,10 +17,13 @@
   gap: 10%;
   align-self: center;
   align-items: center;
-  width: 75%;
+  width: 76%;
   height: 17vh;
   margin-top: 15%;
   background-color:white;
   border-radius: 10px;
 }
-  
+
+label{
+  color: black;
+}
