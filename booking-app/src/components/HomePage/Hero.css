@@ -12,18 +12,69 @@
   color: white;
 }
 
-.hero_content{
+.hero_content {
   display: flex;
-  gap: 10%;
-  align-self: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
   align-items: center;
-  width: 76%;
-  height: 17vh;
+  align-self: center;
+  width: 70%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   margin-top: 15%;
-  background-color:white;
-  border-radius: 10px;
+  backdrop-filter: blur(10px);
 }
 
-label{
-  color: black;
+.check_in_out {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="date"], 
+.booking_dropdown {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border 0.3s ease-in-out;
+}
+
+input[type="date"]:focus, 
+.booking_dropdown:focus {
+  border: 1px solid #007bff;
+}
+
+.booking_dropdown {
+  background-color: #f8f8f8;
+  cursor: pointer;
+}
+
+.hero_content select {
+  width: 100px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .hero_content {
+    flex-direction: column;
+    width: 90%;
+    padding: 15px;
+  }
+  
+  .hero_content select, 
+  input[type="date"] {
+    width: 100%;
+  }
 }
