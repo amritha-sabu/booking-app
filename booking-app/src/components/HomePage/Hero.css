@@ -28,6 +28,12 @@
   backdrop-filter: blur(10px);
 }
 
+button{
+  border: none;
+  width: 10rem;
+  height: 20vh;
+}
+
 .check_in_out {
   display: flex;
   flex-direction: column;
