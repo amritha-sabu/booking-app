@@ -5,16 +5,10 @@ import { useState } from 'react';
 
 const Hero = () => {
     const [showCalendar, setShowCalendar] = useState(false);
-    const [checkInDate, setCheckInDate] = useState(new Date().toLocaleDateString("en-GB", {
-      day: "2-digit",
-      month: "short",
-      year: "2-digit",
-    })
-    .replace(",", "'"));
+    
 
     const handleClick = () => {
         setShowCalendar(!showCalendar);
-        setCheckInDate();
     }
 
     return (
@@ -24,7 +18,6 @@ const Hero = () => {
                 <div className="hero_content">
                     <div className='check-in' onClick={handleClick}>
                         <button>Check In</button>
-                        <p>{checkInDate}</p>
                     </div>
                     <div className='check-out' onClick={handleClick}>
                         <button>Check Out</button>
