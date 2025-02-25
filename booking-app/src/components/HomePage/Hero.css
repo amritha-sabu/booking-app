@@ -60,12 +60,6 @@ input[type="date"],
   border-radius: 5px;
   outline: none;
   transition: border 0.3s ease-in-out;
-  padding: 8px 12px;
-  font-size: 14px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  outline: none;
-  transition: border 0.3s ease-in-out;
 }
 
 input[type="date"]:focus, 
